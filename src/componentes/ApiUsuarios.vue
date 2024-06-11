@@ -3,7 +3,6 @@
     <button class="btn btn-success my-3 mr-2" @click="mostrar()">
       {{ mensajeBoton() }}
     </button>
-    <button class="btn btn-warning my-3 mr-2" @click="editar()">Editar</button>
     <div v-show='visibilidad()' class="table-responsie">
       <table class="table table-info">
         <tr>
